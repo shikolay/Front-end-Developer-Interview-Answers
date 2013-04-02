@@ -16,16 +16,37 @@ Git, Hg, SVN, p4
 JetBrains WebStorm, Mac, HG, Chrome
 (also windows and IE for compability testing)
 * Can you describe your workflow when you create a web page? 
-/*-Make an HTML
+-Grab requirements or bugs, get one with high priority
+-Make an HTML
 -Add CSS
 -Convert it to "server ready" format
-(for example rewrite pure html to template's and so on)*/
+(for example rewrite pure html to template's and so on)
+-Upload on test server and check that everithing fine otherwise fix markup
+-Implement javascript with ChromeDevTools
+-Test in different browsers
+-Commit, and go to first page until all features implemented and bugs fixed
 
 * Can you describe the difference between progressive enhancement and graceful degradation? 
+Actually both technics is for support as much clients envioruments as your can
+-Progressive enchancment 
+Try to build a full func system with basis technology, only after that add additional functions and effects.
+-Graceful degradation
+Develop system in modern envorument, throe this process add fallback code for old envorument to prevent errors 
 	* Bonus points for describing feature detection  
+-Feature detection
+Check what features support current env, depends on it implement actions.
+
 * Explain what "Semantic HTML" means. 
+Phylosophyc explanation:
+Html markup that build according to semanthic of content
+Simple, practical explanation:
+HTML based on divs with meaningfull classes and/or id's
+
 * What browser do you primarily develop in and what developer tools do you use?
+Chrome, Chrome dev tools + WebStorm jetbrains
 * How would you optimize a websites assets/resources?
+	-concat and minify JS, HTML, CSS
+	-Put assets and resources to server with fast static handling
 	* Looking for a number of solutions which can include:
 		* File concatenation
 		* File minification
@@ -34,20 +55,36 @@ JetBrains WebStorm, Mac, HG, Chrome
 		* etc.
 * Why is it better to serve site assets from multiple domains? 
 	* How many resources will a browser download from a given domain at a time? 
+	Depends on browser. But in most common case - 6.
 * Name 3 ways to decrease page load. (perceived or actual load time) 
+-put scripts on down of the page
+-concat minify js (if project is big use modular approach)
+-profile your JS
+-Use CDN 
+-More ways on https://developers.google.com/speed/docs/insights/rules
 * If you jumped on a project and they used tabs and you used spaces, what would you do? 
+	-change my IDE settings, to meet team style guides
 	* Suggest the project utilize something like EditorConfig (http://editorconfig.org)
 	* Conform to the conventions (stay consistant)
 	* `issue :retab! command`
-* Write a simple slideshow page 
+
+* Write a simple slideshow page
 	* Bonus points if it does not use JS.  
 * What tools do you use to test your code's performance?
+	-Mostly profiler in chrome dev tools and jsperf sometimes
 	* JSPerf (http://jsperf.com/)
+
 	* Dromaeo (http://dromaeo.com/) 
 	* etc.
 * If you could master one technology this year, what would it be? 
+-Add selenium web driver to my daily rutine.
 * Explain the importance of standards and standards bodies.
+-Without standarts mostly impossible to create something independent and universal.
+Standarts cut's development costs and make your product available for wide range of users.
 * What is FOUC? How do you avoid FOUC?  
+FOUC effect when user see unstyled content before everything are loaded.
+add css class that hide everything and remove this class when you page loaded
+(dont forget to add no script css fallback)
 
 ### HTML-Specific Questions:
 
