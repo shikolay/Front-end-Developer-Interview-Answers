@@ -126,18 +126,28 @@ localstorege 5mb
 ####<a name='css'>CSS Questions:</a>
 
 * Describe what a "reset" CSS file does and how it's useful.
+set default's to main elements
+(like marhin, paddings, border to 0)
 * Describe Floats and how they work.
+Align element on right or left side, and text will flow around it
 * What are the various clearing techniques and which is appropriate for what context?
+
 * Explain CSS sprites, and how you would implement them on a page or site.
+Css sprite is set of small images stored in one image.
+background property will help you
 * What are your favourite image replacement techniques and which do you use when?
 * CSS property hacks, conditionally included .css files, or... something else?
 * How do you serve your pages for feature-constrained browsers?
   * What techniques/processes do you use?
 * What are the different ways to visually hide content (and make it available only for screen readers)?
+media queries
 * Have you ever used a grid system, and if so, what do you prefer?
+foundation
 * Have you used or implemented media queries or mobile specific layouts/CSS?
+Used
 * Any familiarity with styling SVG?
 * How do you optimize your webpages for print?
+media query
 * What are some of the "gotchas" for writing efficient CSS?
 * What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
   * If so, describe what you like and dislike about the CSS preprocessors you have used.
@@ -145,23 +155,30 @@ localstorege 5mb
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+box model it's how you calc size of box
+box-sizing can help you set different aproaches
 
 **[[⬆]](#toc)**
 
 ####<a name='js'>JS Questions:</a>
 
 * Explain event delegation
+event delegation it's when parant recieve a event
 * Explain how `this` works in JavaScript
+depends on how it's call
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
+QUnit Jasmine and bunch of staff
 * AMD vs. CommonJS?
 * What's a hashtable?
+datasctructure
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
   * What needs to be changed to properly make it an IIFE?
 * What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
 * What's a typical use case for anonymous functions?
+callback
 * Explain the "JavaScript module pattern" and when you'd use it.
   * Bonus points for mentioning clean namespacing.
   * What if your modules are namespace-less?
@@ -171,6 +188,7 @@ localstorege 5mb
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
+
 * What's the difference between `.call` and `.apply`?
 * explain `Function.prototype.bind`?
 * When do you optimize your code?
