@@ -91,7 +91,7 @@ graceful degradation - made full functional and then made fallbacks
 * If you could master one technology this year, what would it be?
   Advanced algorithm's
 * Explain the importance of standards and standards bodies.
-  Without standarts you cant be sure that you code or design works as you expect to.
+  Without standards you cant be sure that you code or design works as you expect to.
 * What is FOUC? How do you avoid FOUC?
   Flash of unstyled content. Put css in head. You can also made loader (but i did not like it)
 
@@ -101,9 +101,9 @@ graceful degradation - made full functional and then made fallbacks
 ####<a name='html'>HTML Questions:</a>
 
 * What's a `doctype` do?
-He says to browser what standart he need to use whyle rendering you page.
+He says to browser what standard he need to use whyle rendering you page.
 * What's the difference between standards mode and quirks mode?
-Quirks mode mimic old browsers, standart mode try to follow standart.
+Quirks mode mimic old browsers, standard mode try to follow standard.
 * What are the limitations when serving XHTML pages?
   More strict that classic HTML, XHTML does not have good browser support.
   * Are there any problems with serving pages as `application/xhtml+xml`?
