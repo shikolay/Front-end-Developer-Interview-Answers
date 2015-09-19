@@ -38,14 +38,10 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ####<a name='general'>General Questions:</a>
 
 * What did you learn yesterday/this week?
-- Depends on person
-
- Me: vertical align by line-height
+- Depends on person. Me: vertical align by line-height
 
 * What excites or interests you about coding?
-- Depends on person
-
- Me: I like bring life to interfaces
+- Depends on person. Me: I like bring life to interfaces
 
 * Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
 Windows (because of IE), webstorm, chrome, terminal
