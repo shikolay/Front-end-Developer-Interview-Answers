@@ -39,10 +39,12 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 * What did you learn yesterday/this week?
 - Depends on person
+- 
  Me: vertical align by line-height
 
 * What excites or interests you about coding?
 - Depends on person
+- 
  Me: I like bring life to interfaces
 
 * Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
@@ -101,9 +103,12 @@ graceful degradation - made full functional and then made fallbacks
 ####<a name='html'>HTML Questions:</a>
 
 * What's a `doctype` do?
-He says to browser what standard he need to use whyle rendering you page.
+
+It tells the browser which version of HTML (or XML) it needs to use while rendering the page.
+
 * What's the difference between standards mode and quirks mode?
-Quirks mode mimic old browsers, standard mode try to follow standard.
+"Quirks" mode is used for legacy browsers, while "standards" mode follows the W3C specification.
+
 * What are the limitations when serving XHTML pages?
   More strict that classic HTML, XHTML does not have good browser support.
   * Are there any problems with serving pages as `application/xhtml+xml`?
